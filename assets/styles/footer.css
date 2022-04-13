@@ -1,0 +1,12 @@
+.rodape {
+    padding-top: 30px;
+    gap: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape .redes-sociais img {
+    width: 22px;
+}

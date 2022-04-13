@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://www.devmedia.com.br/favicon.png">
+    <link rel="stylesheet" href="./assets/styles/menu.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <link rel="stylesheet" href="./assets/styles/sectionImages.css">
+    <link rel="stylesheet" href="./assets/styles/labelOffers.css">
+    <link rel="stylesheet" href="./assets/styles/footer.css">
+    <title>DesafioDevMedia</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <div class="logo">
+                <img class="iconeLogo"
+                    src="https://www.feiradosimportados.com.br/wp-content/uploads/2019/06/pin-localiza%C3%A7%C3%A3o-png-3.png"
+                    alt="iconeLogo">
+                <span class="nomeLogo">Logo</span>
+            </div>
+            <img class="iconePesquisa"
+                src="data:image/png;base64,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"
+                alt="Pesquisa">
+        </nav>
+    </header>
+    <main class="container-main">
+        <section class="cadastro">
+            <div class="tabela">
+                <ul class="tabela-itens">
+                    <li class="elemento selecionado">
+                        <span class="aviao">Fight</span>
+                    </li>
+                    <li class="elemento">
+                        <span class="hotel">Hotel</span>
+                    </li>
+                    <li class="elemento">
+                        <span class="carro">Rental</span>
+                    </li>
+                </ul>
+            </div>
+            <form class="container-label">
+                <h3 class="title">Travel the World With Us</h3>
+                <div class="campos">
+                    <div class="campoFrom">
+                        <p>From</p>
+                        <input class="inputLabel" type="text" placeholder="Departing From">
+                    </div>
+                    <div class="campoFrom">
+                        <p>To</p>
+                        <input class="inputLabel" type="text" placeholder="Arriving At">
+                    </div>
+
+                </div>
+                <button class="btn">Search and find dates</button>
+            </form>
+        </section>
+    </main>
+    <section class="MainSection">
+        <section class="PrimeiraSessao">
+            <div class="textoo">
+                <h3 class="h3Images">Good Offers Right Now</h3>
+                <span class="paraImages">Up 50% discount</span>
+            </div>
+            <div class="container-imagens">
+                <section class="imagemMaior">
+                    <img class="CinqueTerre ajusteImagem" src="./assets/images/cinqueterre.jpg" alt="Cinque Terre">
+                    <p class="lugar-nome">CinqueTerre</p>
+                </section>
+                <section class="grid-imagens imagemMenor">
+                    <img src="./assets/images/newyork.jpg" alt="NewYork">
+                    <p class="lugar-nome">NewYork</p>
+                </section>
+                <section class="grid-imagens imagemMenor">
+                    <img src="./assets/images/sanfran.jpg" alt="SanFrancisco">
+                    <p class="lugar-nome">SanFrancisco</p>
+                </section>
+                <section class="grid-imagens imagemMenor">
+                    <img src="./assets/images/pisa.jpg" alt="Pisa">
+                    <p class="lugar-nome">Pisa</p>
+                </section>
+                <section class="grid-imagens imagemMenor">
+                    <img src="./assets/images/paris.jpg" alt="Paris">
+                    <p class="lugar-nome">Paris</p>
+                </section>
+            </div>
+        </section>
+        <section class="SegundaSessao">
+            <div class="textoo">
+                <h3 class="h3Images">Explore Nature</h3>
+                <span class="paraImages">Travel with us and seee nature at its finest</span>
+                <div class="segundoContainerImagens">
+                    <section class="bloco1">
+                        <img src="./assets/images/ocean.jpg" alt="ocean">
+                        <div class="conteudoTexto">
+                            <h3 class="titlesContainersDois">West Coast, Norway</h3>
+                            <p class="valorContainerDois">roundtrip from $79</p>
+                            <p class="paraContainerDois">Praesent tincidunt sed tellus ut rutrum sed vilae justo.</p>
+                            <p class="ticketContainerDois">buy tickets</p>
+                        </div>
+                    </section>
+                    <section class="bloco2">
+                        <img src="./assets/images/mountains.jpg" alt="mountains">
+                        <div class="conteudoTexto">
+                            <h3 class="titlesContainersDois">Mountains,Austria</h3>
+                            <p class="valorContainerDois">One-Way from $39</p>
+                            <p class="paraContainerDois">Praesent tincidunt sed tellus ut rutrum sed vilae justo.</p>
+                            <p class="ticketContainerDois">Buy tickets</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <section class="Ofertas">
+            <label class="label-Ofertas">
+                <div class="textoOfertas">
+                    <h2 class="h2Ofertas">Get The best offers first!</h2>
+                    <p class="paraOfertas">Join our newSletter.</p>
+                    <p>E-mail</p>
+                </div>
+                <input type="email" placeholder="Your Email address">
+                <button class="btn-ofertas">Subscribe</button>
+            </label>
+        </section>
+        <section class="contatos-info">
+            <div class="textoContato">
+                <h2 class="h2Contato">Contact</h2>
+                <p class="paraContato"> Let us book your next trip!</p>
+                <ul class="lista-contatos">
+                    <li class="itemInfo local">Chicado, US</li>
+                    <li class="itemInfo telefone">Phone +00 151515</li>
+                    <li class="itemInfo email">Email:mail@mail.com</li>
+                </ul>
+                <form class="contate-se">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Message">
+                    <button class="btn-contate-nos">Send Message</button>
+                </form>
+            </div>
+            <footer class="rodape">
+                <p>Find Us on</p>
+                <div class="redes-sociais">
+                    <a href="#">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAZlBMVEX///8AAACUlJT8/Px1dXVUVFR5eXlNTU1wcHCsrKyWlpbl5eXBwcHh4eFHR0eqqqrLy8ujo6MhISHy8vJaWlo+Pj7a2tq+vr6MjIyDg4MyMjIODg5qamqcnJwXFxezs7MqKirU1NTIEIFkAAACmElEQVR4nO3d607CQBBAYaVYaLkIFgoIiLz/S2qMJkZ2SldGd2dyzm/d9Yu9QEvZuzsiIiIiIiIiIiIiIiIiIiKiHJtV9SCH6sfZn/im8/t8mk/1gWVq1I9K70B14jS1J5DuhprTPvjVXBM4S60JpnlErVJjglWKwjo1JlitKBykxgQbIESIMHkIESJMH0KECNOHMD/huhxUi3byUdsuNqflcbsbr559CPfbaSFOP7IvPJw7pzcvLCdXpjcuXLdXp7ctPPaY3rSwewe0L3zpd8nTsPDaIca88Poxxrjw1Hd6q8JD7+mNCveNd+Fj/+ltCl/lF9pOhMuI6W0KI/6FNoXDmOlNChfuhTEbqUlh/7O9VWHXLfiirXbD8feeDAo7dsOjeG3NlFB82zR57T9IzsIn6TVp8xIxSs5C8QNb45hRchauhHkmUaPkLJROFks3wrEwz8q9UDjxGRRKr7vjRkGIMIGwQIgQIUKECBEiRIjwP4XC+0OrwoeLRsLfVlz+6Hsr6QJjNsKbZz/kLoy6CRNKugjuRygN7EbYuBee3QvFJ+XdCMXHrN0Id+6F4qV+N8K1d2Ej3szwIpTvKXoRtu6F8hfHeBEe3QvlbzfyIpTeHboRFuLp0Iuw2bsXygM7EZ4NCG+b+mRAWF40lJ61CHxHYseHiLIRBnJ2RTiQ/6v6CBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKEvoXaa8nqCDXXktVeD1hHqLkesPaazjpCzTWdtdflVhGqrsutvba6ilB3bfWOJ8hSCUtdoDJRQagOfN9QFffFm5+3GClvop/NqvryoZZftRFm6PfbdaV6FCUiIiIiIiIiIiIiIiIiIiJS6w2cIFfLt0x7DgAAAABJRU5ErkJggg=="
+                            alt="facebook">
+                    </a>
+                    <a href="#">
+                        <img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/instagram_icon_138461.png"
+                            alt="instagram">
+                    </a>
+                    <a href="#">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384050.png" alt="snap">
+                    </a>
+                    <a href="#">
+                        <img src="https://i.pinimg.com/originals/c7/6c/e9/c76ce96e9ce405a40dad663b76ee1598.png"
+                            alt="pinterest">
+                    </a>
+                    <a href="#">
+                        <img src="https://www.iconpacks.net/icons/1/free-twitter-icon-117-thumb.png" alt="twitter">
+                    </a>
+                    <a href="#">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384155.png" alt="linkhedin">
+                    </a>
+                </div>
+                <p>Powered by w3css</p>
+            </footer>
+        </section>
+    </section>
+
+
+
+</body>
+
+</html>

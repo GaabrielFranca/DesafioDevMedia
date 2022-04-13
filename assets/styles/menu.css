@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f1f1f1;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px 20px 20px;
+}
+
+.menu .logo {
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+}
+
+.menu .logo .iconeLogo,
+.iconePesquisa {
+    width: 21px;
+}
+
+.menu .logo .nomeLogo {
+    color: #f84b3e;
+}

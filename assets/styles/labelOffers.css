@@ -1,0 +1,128 @@
+.Ofertas {
+    background: #606060;
+    height: 290px;
+    margin-top: 33px;
+    color: white;
+}
+
+.Ofertas .label-Ofertas {
+    display: flex;
+    flex-direction: column;
+    margin: 14px;
+    /* margin-left: 15px; */
+
+}
+
+.Ofertas .label-Ofertas .h2Ofertas {
+    margin-top: 36px;
+    margin-bottom: 30px;
+}
+
+.Ofertas .label-Ofertas .paraOfertas {
+    margin-bottom: 24px;
+}
+
+.Ofertas .label-Ofertas input {
+    padding: 20px;
+    margin-top: 4px;
+    margin-bottom: 17px;
+}
+
+.Ofertas .label-Ofertas button {
+    width: 100px;
+    height: 40px;
+    background: #f38981;
+    border: none;
+    color: white;
+    transition: ease-in-out 1s;
+}
+
+.Ofertas .label-Ofertas button:hover {
+    cursor: pointer;
+    background: #f38981d1;
+}
+
+
+.contatos-info {
+    margin-top: 37px;
+    margin-left: 10px;
+}
+
+.contatos-info .textoContato {
+    max-width: 100%;
+
+}
+
+.contatos-info .textoContato .h2Contato {
+    margin-bottom: 30px;
+}
+
+
+.contatos-info .textoContato .paraContato {
+    margin-bottom: 20px;
+}
+
+.lista-contatos {
+    padding-top: 10px;
+    margin-bottom: 22px;
+
+}
+
+.lista-contato .email {}
+
+.lista-contatos .local::before {
+    content: "";
+    display: inline-block;
+    background: url("https://cdn.icon-icons.com/icons2/1480/PNG/512/location_101996.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 14px;
+}
+
+.lista-contatos .telefone::before {
+    content: "";
+    display: inline-block;
+    background: url("https://cdn.icon-icons.com/icons2/909/PNG/512/telephone_icon-icons.com_70849.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 14px;
+}
+
+.lista-contatos .email::before {
+    content: "";
+    display: inline-block;
+    background: url("https://cdn-icons-png.flaticon.com/512/4350/4350028.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 14px;
+}
+
+
+.contatos-info .contate-se input {
+    padding: 20px;
+    width: calc(100% - 14px);
+    height: 54px;
+    margin-bottom: 16px;
+
+}
+
+.contatos-info .contate-se button {
+    width: 160px;
+    height: 50px;
+    background: #000;
+    color: white;
+    transition: ease-in-out 1s;
+}
+
+.contatos-info .contate-se button:hover {
+    cursor: pointer;
+    border: 1px black solid;
+    background: white;
+    color: black;
+}
