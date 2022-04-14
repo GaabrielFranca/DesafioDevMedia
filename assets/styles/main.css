@@ -30,6 +30,20 @@ ul li {
     flex-direction: column;
 }
 
+@media(max-width:900px) {
+    .container-main {
+        height: 100%;
+        background-image: none;
+    }
+
+    .container-main .cadastro {
+        width: 100%;
+    }
+}
+
+
+
+
 .container-main .cadastro .tabela-itens {
 
     display: flex;
